@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/myPage.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/myPage.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
 
 </head>
 <body >
@@ -65,7 +66,39 @@
     </div>
   </div>
 
-  <div id="div_experience">
+  <div id="div_experience" class="oddSection">
+    <div class="sectionPic">
+      <img src="images/experience.jpg" alt="Experience">
+    </div>
+    <div class="sectionText">
+      <h2>Experience</h2>
+      <b>USC Brain Imaging and Signal Processing Lab, Los Angeles, California</b><br><br>
+      <i>Research Assistant</i> (Dec, 2016 - Present)<br>
+      <ul>
+        <li>Creating Deep Learning models to identify lesions in the brain by analyzing MRI scans. The models are trained using fully convolutional networks (FCN) with Conditional Random Fields (CRF) created using Caffe library.</li>
+        <li>Maintenance of <a href="http://neuroimage.usc.edu/">neuroimage website</a> and its period migration to different server.</li>
+        <li>Developed the <a href="http://neuroimage.usc.edu/forums/">Brainstorm forum</a> which runs on Discourse forum engine. It's tech-stack include Ruby on Rails, PostgreSQL, Nginx, Dockers.</li>
+        <li>Implementing security operations on lab servers to protect the confidential data.</li>
+        <li>Optimizing the servers for efficient and smooth research computations.</li>
+      </ul>
+      <b>Info Edge India Ltd, Noida, Uttar Pradesh</b><br><br>
+      <i>Lead Engineer</i> (Jun, 2016 - Jul, 2016)
+      <ul>
+        <li>Organizing tasks for team members and coordinating with them for regular updates.</li>
+        <li>Working with the Product Management to improve the existing business logic implementation of <a href="www.99acres.com">99acres</a>.</li>
+      </ul>
+      <i>Senior Software Engineer</i> (May, 2015 - May, 2016)
+      <ul>
+        <li>Improving the workflows to enhance user experience on <a href="www.99acres.com">99acres.com</a>.</li>
+        <li>Optimized and refactored the code to get 70% reduction in server processing time.</li>
+        <li>Designed a site wide logging system from scratch in order to store and process every user activity. This was done using AWS, Hadoop, Apache Pig, RabbitMQ, PHP, Java, MySql, Memcached and Redis.</li>
+      </ul>
+      <i>Software Engineer</i> (Jun, 2014 - Apr, 2015)
+      <ul>
+        <li>Created web based applications of <a href="www.99acres.com">99acres.com</a> using LAMP stack (Linux, Apache, MySql, PHP).</li>
+        <li>Fixing bugs on the live site.</li>
+      </ul>
+    </div>
   </div>
 
   <div id="div_research">
@@ -77,6 +110,10 @@
   <div id="div_contact">
   </div>
 </div>
+
+<script>
+w3.includeHTML();
+</script>
 
 </body>
 </html>
