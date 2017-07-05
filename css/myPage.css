@@ -1,0 +1,13 @@
+* {font-family:"Helvetica"}
+body{margin: 0px;}
+.outerBody{padding: 0px 40px;}
+.navBar{position:fixed;overflow:hidden;top:0%;left:0%;background-color:rgb(240,240,240);color:#696969;width:100%;}
+.navBar table{margin-left:46px;}
+.navEl{padding:20px 35px;}
+.oddSection{margin-top:60px;padding: 45px 45px;overflow: hidden;}
+.oddSection .sectionPic{float:left;}
+.oddSection .sectionText{margin-left:350px;}
+.sectionPic img{height:400px;width:300px;}
+.evenSection{background-color:#F0F8FF;margin-top:60px;padding: 45px 45px;overflow: hidden;}
+.evenSection .sectionPic{float:right;}
+.evenSection .sectionText{width:700px;float:left;}
