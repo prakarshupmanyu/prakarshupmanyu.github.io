@@ -11,3 +11,4 @@ body{margin: 0px;}
 .evenSection{background-color:#F0F8FF;margin-top:60px;padding: 45px 45px;overflow: hidden;}
 .evenSection .sectionPic{float:right;}
 .evenSection .sectionText{width:700px;float:left;}
+a{text-decoration:none;}
