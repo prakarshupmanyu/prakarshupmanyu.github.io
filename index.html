@@ -51,7 +51,6 @@
         <li>Current GPA: 3.82</li>
         <li>Focus: Artificial Intelligence, Machine Learning, Applied NLP, Data Management</li>
       </ul>
-      <br>
       <b>Delhi Technological University (formerly DCE), Rohini, New Delhi</b>
       <ul>
         <li>Bachelor of Technology in Software Engineering</li>
@@ -69,7 +68,7 @@
 
   <div id="div_experience" class="oddSection">
     <div class="sectionPic">
-      <img src="images/experience.jpg" alt="Experience">
+      <img src="images/experience.gif" alt="Experience">
     </div>
     <div class="sectionText">
       <h2>Experience</h2>
@@ -104,8 +103,27 @@
 
   <div id="div_projects" class="evenSection">
     <div class="sectionText">
+      <h2>Projects</h2>
+      <b>Abstractive French article summarization</b>
+      <ul>
+        <li>An encoder-decoder system that creates an abstract summary of a French news article. It was trained using 446,000 French news articles scraped from websites like www.lemonde.fr, www.latribune.fr, etc.</li>
+        <li>The model was trained using Recurrent Neural Networks with LSTM units.</li>
+        <li>The generated summary received a FRESA score of 0.08-0.21. Further details can be found <a href="https://github.com/prakarshupmanyu/news-in-short">here</a>.</li>
+      </ul>
+      <b>Mini Prolog</b>
+      <ul>
+        <li>This is a <a href="https://github.com/prakarshupmanyu/MiniProlog">tool</a> that compiles sentences in First Order Logic. I wrote a compiler using PLY library in Python. The processed statements were added to a knowledge base for information extraction.</li>
+        <li>Using the knowledge base, the tool could tell us whether a new statements is inferable or not. It gives answer in True/False.</li>
+        <li>The system had a 96% accuracy to infer new sentences that were humanly inferable from any given knowledge base.</li>
+      </ul>
+      <b>Language Detector</b>
+      <ul>
+        <li>This tool trains a model using Naive Bayes with Laplace smoothing method. I used <a href="http://www.statmt.org/europarl/">europarl corpus</a> as the training set.</li>
+        <li>The model is then used to predict the language of given text. It can predict any of the 10 languages that were used while training.</li>
+      </ul>
     </div>
     <div class="sectionPic">
+      <img src="images/projects.jpg" alt="Projects">
     </div>
   </div>
 
