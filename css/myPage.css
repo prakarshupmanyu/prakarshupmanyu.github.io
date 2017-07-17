@@ -3,7 +3,7 @@ body{margin: 0px;}
 .outerBody{padding: 0px 40px;}
 .navBar{position:fixed;overflow:hidden;top:0%;left:0%;background-color:rgb(240,240,240);color:#696969;width:100%;}
 .navBar table{margin-left:46px;}
-.navEl{padding:20px 35px;}
+.navEl{padding:20px 35px;cursor:pointer;}
 .oddSection{margin-top:60px;padding: 45px 45px;overflow: hidden;}
 .oddSection .sectionPic{float:left;}
 .oddSection .sectionText{margin-left:350px;}
